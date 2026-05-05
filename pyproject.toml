@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "topic-classification-methods-experiment"
+version = "0.1.0"
+description = ""
+authors = ["danield2255 <danield2255@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^3.0.2"
+transformers = "^5.8.0"
+ipykernel = "^7.2.0"
+jupyter = "^1.1.1"
+jupyterlab = "^4.5.7"
+scikit-learn = "^1.8.0"
+matplotlib = "^3.10.9"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
