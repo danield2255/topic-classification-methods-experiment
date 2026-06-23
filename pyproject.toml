@@ -4,9 +4,10 @@ version = "0.1.0"
 description = ""
 authors = ["danield2255 <danield2255@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.15"
 pandas = "^3.0.2"
 transformers = "^5.8.0"
 ipykernel = "^7.2.0"
@@ -15,8 +16,12 @@ jupyterlab = "^4.5.7"
 scikit-learn = "^1.8.0"
 matplotlib = "^3.10.9"
 seaborn = "^0.13.2"
+sentence-transformers = "^5.4.1"
+accelerate = "^1.13.0"
+torch = "^2.12.1"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
