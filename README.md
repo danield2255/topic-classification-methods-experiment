@@ -33,3 +33,8 @@ The data on news article topic classification comes from [this dataset on Kaggle
 
 
 ## Potential Improvements
+If this investigation were to be taken further, some actions that could teach us more about comparing methods could include: 
+- *Trying different model types for the more basic feature extraction methods*: Basic feature collection methods may be all we need for particular NLP tasks, but it is possible more model complexity can maximize the efficacy of using these simple feature collection methods.
+- *Fine tuning feature extraction methods such as embedding feature collections and TF-IDF*: Taking more control over the parameters of our feature collection could greatly impact our ability to inform any model
+- *Using larger general LLMs*: For our general approach of predicting with a non-specified LLM, using larger and more powerful LLMs via API calls or with more powerful hardware could greatly improve the model's prediction ability. 
+- *Expanding further on the number of classes we try to predict between in multi-class classification*: We could take these principles into other text prediction situations. Seeing how these methods perform when given more classes or different kinds of tasks could be useful in understanding their overall usefulness.
