@@ -30,9 +30,11 @@ The data on news article topic classification comes from [this dataset on Kaggle
 
 
 ## Results 
-![Binary Sentiment Analysis Results](assets/BinaryResults.png "Binary Sentiment Analysis")
+<!-- ![Binary Sentiment Analysis Results](assets/BinaryResults.png "Binary Sentiment Analysis") -->
+<img src="assets/BinaryResults.png" width="200" height="100">
 
-![Multi-class Sentiment Analysis Results](assets/MulticlassResults.png "Multi-class Sentiment Analysis")
+<img src="assets/MulticlassResults.png" width="200" height="100">
+<!-- ![Multi-class Sentiment Analysis Results](assets/MulticlassResults.png "Multi-class Sentiment Analysis") -->
 
 
 ## Potential Improvements
