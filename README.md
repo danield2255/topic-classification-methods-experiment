@@ -30,11 +30,13 @@ The data on news article topic classification comes from [this dataset on Kaggle
 
 
 ## Results 
-<!-- ![Binary Sentiment Analysis Results](assets/BinaryResults.png "Binary Sentiment Analysis") -->
-<img src="assets/BinaryResults.png" width="200" height="100">
 
-<img src="assets/MulticlassResults.png" width="200" height="100">
-<!-- ![Multi-class Sentiment Analysis Results](assets/MulticlassResults.png "Multi-class Sentiment Analysis") -->
+<img src="assets/BinaryResults.png" width="400" height="200">
+From the results of our investigation regarding binary sentiment analysis data we see that the task specific model performs best by all metrics. This being said, the embedding model shows promise and with some tuning could be competitive with this. The general LLM method also has merit as noted by the result, but does take way more time predict on. 
+
+<img src="assets/MulticlassResults.png" width="400" height="200">
+The multi-class results show a similar trend to the binary model results. The task specific model in this case was not a perfect comparison because it was trained to predict many more classes. Despite this it still performed the best in terms of accuracy and this gives it possible merit to the idea of a task specific model that is trained specifically to predict the classes of our data. In the multi-class case, we see that the embedding feature collection method shows itself as a possible best option if it is tuned right and paired with a more appropriate model type.
+
 
 
 ## Potential Improvements
